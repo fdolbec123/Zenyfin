@@ -1,6 +1,7 @@
 /* This is a v1 of jellyfin theming css */
 
 @import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css"); /* This line tells Jellyfin to use rounded icons*/
+@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFLow-RoundCastCrew.css'); /* Testing to see if we can get rounded crew icons
 
 /* Played Indicator parameters */
 .playedIndicator {
@@ -41,7 +42,7 @@
     padding: 1.75em 1.7em;
 }
 
-/* Shrink cast thumbnails */
+/* Shrink cast thumbnails 
 
 #castContent .card.overflowPortraitCard {
     width: 4.2cm !important; font-size: 90% !important;
@@ -50,14 +51,14 @@
     background-color: #0000 !important; box-shadow: none !important;
 }
 
-/* Correcting image aspect ration...*/
+/* Correcting image aspect ration...
 #castContent .cardOverlayContainer.itemAction,
 #castContent .cardImageContainer {
     border-radius: 100% !important;
 }
 #castContent .cardScalable {width: 3.8cm !important; height: 3.8cm !important;}
 #castContent .cardOverlayButton-br {bottom: 0; width: 100%;}
-#castContent .cardOverlayButton {margin: auto;}
+#castContent .cardOverlayButton {margin: auto;} */
 
 /* OLD WAY TO DO IT -- DOESN'T SEEM TO WORK ANYMORE 
 
