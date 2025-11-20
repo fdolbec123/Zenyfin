@@ -23,11 +23,11 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* Rounding Images */
+/* Rounding Images ----- Value subject to changes... 
 .cardContent-button,
 .itemDetailImage {
-    border-radius: 0.35em; /* Value subject to changes... */
-}
+    border-radius: 0.35em;
+}*/
 
 /* Enlarging the tab buttons */
 .headerTabs.sectionTabs {
