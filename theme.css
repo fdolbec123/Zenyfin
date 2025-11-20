@@ -55,16 +55,34 @@
     border-radius: 50% !important;
     overflow:  hidden !important;
 }
-#castContent .cardScalable {width: 3.8cm !important; height: 3.8cm !important; border-radius: 50% !important; overflow: hidden !important;}
+#castContent .cardScalable {
+    width: 3.8cm !important;
+    height: 3.8cm !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+#castContent .card.overflowPortraitCard .cardImage {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
 #castContent .card.overflowPortraitCard img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
     border-radius: 50% !important;
 }
-#castContent .cardOverlayButton-br {bottom: 0; width: 100%;}
-#castContent .cardOverlayButton {margin: auto;}
+#castContent .card.overflowPortraitCard .cardOverlayContainer {
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+#castContent .cardOverlayButton-br {
+    bottom: 0; width: 100%;}
+#castContent .cardOverlayButton {
+    margin: auto;}
 #castContent .cardText {
     opacity: 1 !important;
     visibility: visible !important;
+    display: block !important;
 }
