@@ -1,6 +1,6 @@
 /* This is a v1 of jellyfin theming css */
 
-/*@import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css"); /* This line tells Jellyfin to use rounded icons*/
+@import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css"); /* This line tells Jellyfin to use rounded icons*/
 /* Played Indicator parameters */
 .playedIndicator {
     background: #00000058 !important;
@@ -21,11 +21,11 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* Rounding Images ----- Value subject to changes... 
+/* Rounding Images ----- Value subject to changes... */
 .cardContent-button,
 .itemDetailImage {
     border-radius: 0.35em;
-}*/
+}
 
 /* Enlarging the tab buttons */
 .headerTabs.sectionTabs {
