@@ -21,11 +21,11 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* Rounding Images ----- Value subject to changes... */
+/* Rounding Images ----- Value subject to changes... 
 .cardContent-button,
 .itemDetailImage {
     border-radius: 0.35em;
-}
+}*/
 
 /* Enlarging the tab buttons */
 .headerTabs.sectionTabs {
@@ -39,50 +39,3 @@
 .emby-tab-button {
     padding: 1.75em 1.7em;
 }
-
-/* Shrink cast thumbnails
-
-#castContent .card.overflowPortraitCard {
-    width: 4.2cm !important; font-size: 90% !important;
-}
-.cardPadder {
-    background-color: #0000 !important; box-shadow: none !important;
-}
-
-/* Correcting image aspect ration...*/
-/*#castContent .cardOverlayContainer.itemAction,
-#castContent .cardImageContainer {
-    border-radius: 50% !important;
-    overflow:  hidden !important;
-}
-#castContent .cardScalable {
-    width: 3.8cm !important;
-    height: 3.8cm !important;
-    border-radius: 50% !important;
-    overflow: hidden !important;
-}
-#castContent .card.overflowPortraitCard .cardImage {
-    width: 100% !important;
-    height: 100% !important;
-    border-radius: 50% !important;
-    overflow: hidden !important;
-}
-#castContent .card.overflowPortraitCard img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    border-radius: 50% !important;
-}
-#castContent .card.overflowPortraitCard .cardOverlayContainer {
-    border-radius: 50% !important;
-    overflow: hidden !important;
-}
-#castContent .cardOverlayButton-br {
-    bottom: 0; width: 100%;}
-#castContent .cardOverlayButton {
-    margin: auto;}
-#castContent .cardText {
-    opacity: 1 !important;
-    visibility: visible !important;
-    display: block !important;
-}*/
