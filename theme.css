@@ -64,4 +64,7 @@
 }
 #castContent .cardOverlayButton-br {bottom: 0; width: 100%;}
 #castContent .cardOverlayButton {margin: auto;}
-
+#castContent .cardText {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
