@@ -40,7 +40,18 @@
     padding: 1.75em 1.7em;
 }
 
-/* Shrink cast thumbnails */
+/* Rounded cards */
+.cardContent,
+.cardPadder,
+.cardOverlayContainer,
+.blurhash-canvas,
+.dialog,
+.itemSelectionPanel,
+.nowPlayingPageImage {
+    border-radius: 15px !important;
+}
+
+/* Shrink cast thumbnails
 
 #castContent .card.overflowPortraitCard {
     width: 4.2cm !important; font-size: 90% !important;
@@ -50,7 +61,7 @@
 }
 
 /* Correcting image aspect ration...*/
-#castContent .cardOverlayContainer.itemAction,
+/*#castContent .cardOverlayContainer.itemAction,
 #castContent .cardImageContainer {
     border-radius: 50% !important;
     overflow:  hidden !important;
@@ -85,4 +96,4 @@
     opacity: 1 !important;
     visibility: visible !important;
     display: block !important;
-}
+}*/
