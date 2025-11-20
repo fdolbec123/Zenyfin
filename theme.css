@@ -21,11 +21,11 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* Rounding Images ----- Value subject to changes... 
+/* Rounding Images ----- Value subject to changes... */
 .cardContent-button,
 .itemDetailImage {
     border-radius: 0.35em;
-}*/
+}
 
 /* Enlarging the tab buttons */
 .headerTabs.sectionTabs {
@@ -53,7 +53,8 @@
 #castContent .cardOverlayContainer.itemAction,
 #castContent .cardImageContainer {
     border-radius: 50% !important;
+    overflow:  hidden !important;
 }
-#castContent .cardScalable {width: 3.8cm !important; height: 3.8cm !important; border-radius: 50% !important;}
+#castContent .cardScalable {width: 3.8cm !important; height: 3.8cm !important; border-radius: 50% !important; overflow: hidden !important;}
 #castContent .cardOverlayButton-br {bottom: 0; width: 100%;}
 #castContent .cardOverlayButton {margin: auto;}
