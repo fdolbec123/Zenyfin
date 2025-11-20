@@ -40,17 +40,6 @@
     padding: 1.75em 1.7em;
 }
 
-/* Rounded cards */
-.cardContent,
-.cardPadder,
-.cardOverlayContainer,
-.blurhash-canvas,
-.dialog,
-.itemSelectionPanel,
-.nowPlayingPageImage {
-    border-radius: 50%  !important;
-}
-
 /* Shrink cast thumbnails
 
 #castContent .card.overflowPortraitCard {
