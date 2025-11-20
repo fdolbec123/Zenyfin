@@ -25,7 +25,7 @@ background-color: rgba(0, 0, 0, 0);
 /* Rounding Images */
 .cardContent-button,
 .itemDetailImage {
-    border-radius: 0.25em; /* Value subject to changes... */
+    border-radius: 0.35em; /* Value subject to changes... */
 }
 
 /* Enlarging the tab buttons */
