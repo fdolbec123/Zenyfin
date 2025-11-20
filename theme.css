@@ -1,6 +1,6 @@
 /* This is a v1 of jellyfin theming css */
 
-@import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css"); /* This line tells Jellyfin to use rounded icons*/
+/*@import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css"); /* This line tells Jellyfin to use rounded icons*/
 /* Played Indicator parameters */
 .playedIndicator {
     background: #00000058 !important;
