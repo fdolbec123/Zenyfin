@@ -1,6 +1,9 @@
 /* This is a v1 of jellyfin theming css */
 
+/* This is a v1 of jellyfin theming css */
+
 @import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css"); /* This line tells Jellyfin to use rounded icons*/
+
 /* Played Indicator parameters */
 .playedIndicator {
     background: #00000058 !important;
@@ -21,10 +24,10 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-/* Rounding Images ----- Value subject to changes... */
+/* Rounding Images */
 .cardContent-button,
 .itemDetailImage {
-    border-radius: 0.35em;
+    border-radius: 0.35em; /* Value subject to changes... */
 }
 
 /* Enlarging the tab buttons */
@@ -39,3 +42,21 @@
 .emby-tab-button {
     padding: 1.75em 1.7em;
 }
+
+/* Shrink cast thumbnails */
+
+#castContent .card.overflowPortraitCard {
+    width: 4.2cm !important; font-size: 90% !important;
+}
+.cardPadder {
+    background-color: #0000 !important; box-shadow: none !important;
+}
+
+/* Correcting image aspect ration...*/
+#castContent .cardOverlayContainer.itemAction,
+#castContent .cardImageContainer {
+    border-radius: 6px !important;
+}
+#castContent .cardScalable {width: 3.8cm !important; height: 3.8cm !important;}
+#castContent .cardOverlayButton-br {bottom: 0; width: 100%;}
+#castContent .cardOverlayButton {margin: auto;}
