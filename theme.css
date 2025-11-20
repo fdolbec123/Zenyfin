@@ -42,8 +42,8 @@ background-color: rgba(0, 0, 0, 0);
 }
 
 /* Shrink and square (or round) cast thumbnails */
-#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
-#castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm; font-size: 90%;}
+#castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm; font-size: 90%;}
 
 /* Correct image aspect ratio behavior, set border-radius to zero for square tiles */
 #castContent .cardContent-button.cardImageContainer.coveredImage.cardContent.cardContent-shadow.itemAction.lazy {background-size: cover !important; border-radius: 2.5cm;}
